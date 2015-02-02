@@ -11,6 +11,7 @@
 		01B546101A7FC4B4005A9EA3 /* PrintNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 01B5460E1A7FC4B4005A9EA3 /* PrintNumber.c */; };
 		01B546131A7FCD8E005A9EA3 /* Factorial.c in Sources */ = {isa = PBXBuildFile; fileRef = 01B546111A7FCD8E005A9EA3 /* Factorial.c */; };
 		01B546161A7FD138005A9EA3 /* StructExercise.c in Sources */ = {isa = PBXBuildFile; fileRef = 01B546141A7FD138005A9EA3 /* StructExercise.c */; };
+		01FACFB41A7FEE7900198FBB /* ArrayCopy.c in Sources */ = {isa = PBXBuildFile; fileRef = 01FACFB21A7FEE7900198FBB /* ArrayCopy.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		01B546121A7FCD8E005A9EA3 /* Factorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factorial.h; sourceTree = "<group>"; };
 		01B546141A7FD138005A9EA3 /* StructExercise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = StructExercise.c; sourceTree = "<group>"; };
 		01B546151A7FD138005A9EA3 /* StructExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StructExercise.h; sourceTree = "<group>"; };
+		01FACFB21A7FEE7900198FBB /* ArrayCopy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ArrayCopy.c; sourceTree = "<group>"; };
+		01FACFB31A7FEE7900198FBB /* ArrayCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayCopy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				01B546121A7FCD8E005A9EA3 /* Factorial.h */,
 				01B546141A7FD138005A9EA3 /* StructExercise.c */,
 				01B546151A7FD138005A9EA3 /* StructExercise.h */,
+				01FACFB21A7FEE7900198FBB /* ArrayCopy.c */,
+				01FACFB31A7FEE7900198FBB /* ArrayCopy.h */,
 			);
 			path = CExamples;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				01B546131A7FCD8E005A9EA3 /* Factorial.c in Sources */,
 				01B546161A7FD138005A9EA3 /* StructExercise.c in Sources */,
 				01B546081A7FC09C005A9EA3 /* main.c in Sources */,
+				01FACFB41A7FEE7900198FBB /* ArrayCopy.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +256,7 @@
 				01B5460D1A7FC09C005A9EA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
