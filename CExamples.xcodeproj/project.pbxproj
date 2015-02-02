@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		01B546081A7FC09C005A9EA3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 01B546071A7FC09C005A9EA3 /* main.c */; };
+		01B546101A7FC4B4005A9EA3 /* PrintNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 01B5460E1A7FC4B4005A9EA3 /* PrintNumber.c */; };
+		01B546131A7FCD8E005A9EA3 /* Factorial.c in Sources */ = {isa = PBXBuildFile; fileRef = 01B546111A7FCD8E005A9EA3 /* Factorial.c */; };
+		01B546161A7FD138005A9EA3 /* StructExercise.c in Sources */ = {isa = PBXBuildFile; fileRef = 01B546141A7FD138005A9EA3 /* StructExercise.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		01B546041A7FC09C005A9EA3 /* CExamples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CExamples; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B546071A7FC09C005A9EA3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		01B5460E1A7FC4B4005A9EA3 /* PrintNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrintNumber.c; sourceTree = "<group>"; };
+		01B5460F1A7FC4B4005A9EA3 /* PrintNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintNumber.h; sourceTree = "<group>"; };
+		01B546111A7FCD8E005A9EA3 /* Factorial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Factorial.c; sourceTree = "<group>"; };
+		01B546121A7FCD8E005A9EA3 /* Factorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factorial.h; sourceTree = "<group>"; };
+		01B546141A7FD138005A9EA3 /* StructExercise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = StructExercise.c; sourceTree = "<group>"; };
+		01B546151A7FD138005A9EA3 /* StructExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StructExercise.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				01B546071A7FC09C005A9EA3 /* main.c */,
+				01B5460E1A7FC4B4005A9EA3 /* PrintNumber.c */,
+				01B5460F1A7FC4B4005A9EA3 /* PrintNumber.h */,
+				01B546111A7FCD8E005A9EA3 /* Factorial.c */,
+				01B546121A7FCD8E005A9EA3 /* Factorial.h */,
+				01B546141A7FD138005A9EA3 /* StructExercise.c */,
+				01B546151A7FD138005A9EA3 /* StructExercise.h */,
 			);
 			path = CExamples;
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B546101A7FC4B4005A9EA3 /* PrintNumber.c in Sources */,
+				01B546131A7FCD8E005A9EA3 /* Factorial.c in Sources */,
+				01B546161A7FD138005A9EA3 /* StructExercise.c in Sources */,
 				01B546081A7FC09C005A9EA3 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
